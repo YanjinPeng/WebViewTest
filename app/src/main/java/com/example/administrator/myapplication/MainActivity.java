@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 		webView.getSettings().setJavaScriptEnabled(true);
 		webView.setWebViewClient(new WebViewClient());
 		webView.setWebChromeClient(new MyChromeClient(this));
-		webView.loadUrl("http://app.anjudai6.com/");
+		webView.loadUrl("http://baidu.com/");
 	}
 	//使用Webview的时候，返回键没有重写的时候会直接关闭程序，这时候其实我们要其执行的知识回退到上一步的操作
 	@Override
